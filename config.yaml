@@ -18,7 +18,7 @@ monitors:
   - id: pool.52kx.net # unique identifier
     name: pool.52kx.net
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+    url: 'https://pool.52kx.net/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -26,12 +26,12 @@ monitors:
   - id: 52kx.net
     name: 52kx.net
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    url: 'https://52kx.net'
     method: GET
     expectStatus: 200
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: od.52kx.net
+    name: od.52kx.net
+    url: 'https://od.52kx.net/'
     method: GET
     expectStatus: 200
